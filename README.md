@@ -19,7 +19,7 @@ In case of internal commands, since this is a very basic shell, only 5 commands 
     - With one argument, cd <input> is used to change the present working directory to the one mentioned in the input.
     - cd.. changes the working directory to the parent directory of the current directory.
 3. echo :  The echo command is used to display the line of a text. Here it neglects the extra space if present before or after the command.
-    - echo -E : It explicitly suppresses the interpretation of backslash escapes.  `echo -E abcdef\nghi      xyz `. It will output >abcdefnghi xyz .(Neglects extra space and ignores backslash escape sequences.)
+    - echo -E : It explicitly suppresses the interpretation of backslash escapes.  `echo -E abcdef\nghi      xyz `. It will output abcdefnghi xyz .(Neglects extra space and ignores backslash escape sequences.)
     
     - echo -n : It doesn’t append a new line.
     eg.  >>echo -n “abc          def”  
